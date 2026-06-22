@@ -1,1 +1,12 @@
-frontend/node_modules
+# Ignorar dependencias en CUALQUIER nivel (frontend y backend)
+node_modules/
+
+# Ignorar archivos de variables de entorno en CUALQUIER nivel
+.env
+.env.*
+
+# Ignorar la carpeta de compilación del frontend
+frontend/dist/
+
+# Ignorar archivos de registro de errores de npm
+npm-debug.log*
